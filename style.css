@@ -1,0 +1,41 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.principale{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principale img{
+    width: 70%;
+    height: 100%;
+}
+
+.cont-immagini{
+    display: flex;
+    margin-top: 20px;
+}
+
+.cont-immagini .immagine{
+    width: 30%;
+    margin: 0 5px;
+}
+
+.immagine img{
+    width: 100%;
+    height: 100%;
+}
+
+#selected{
+    border: 3px solid red;
+}
+
+button{
+    margin-top: 10px;
+}
